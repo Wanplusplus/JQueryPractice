@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Tutorial</title>
+    <link rel = "stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="stylers.css">
+</head>
+<body>
+    <!-- Left Menu -->
+<div id="menu">
+    <h2>jQuery Tutorials</h2>
+    <ul>
+    <li><a href="#" data-tutorial="variables">Variables and Data Types</a></li>
+    <li><a href="#" data-tutorial="add-numbers">Add Two Numbers</a></li>
+    <li><a href="#" data-tutorial="if-statement">If Statement (Grade Check)</a></li>
+    <li><a href="#" data-tutorial="loops">Loops (for & while)</a></li>
+    <li><a href="#" data-tutorial="arrays">Arrays</a></li>
+    <li><a href="#" data-tutorial="strings">Strings and Parsing</a></li>
+    <li><a href="#" data-tutorial="functions">Functions</a></li>
+    <li><a href="#" data-tutorial="events">Event Listeners</a></li>
+    <li><a href="#" data-tutorial="control-manipulation">Control Manipulation</a></li>
+    </ul>
+</div>
+    <!-- Right Content -->
+    <div id="content">
+    <div id="variables" class="tutorial-section">
+        <h2>Variables and Data Types</h2>
+        <p>Enter a name and age to see how variables work:</p>
+        <input type="text" id="var-name" placeholder="Enter name (e.g., John)">
+        <input type="number" id="var-age" placeholder="Enter age (e.g., 25)">
+        <button id="var-submit">Display Variables</button>
+        <div class="output" id="output-variables"></div>
+    </div>
+    
+    <div id="add-numbers" class="tutorial-section">
+        <h2>Add Two Numbers</h2>
+        <p>Enter two numbers to add:</p>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+        <button id="add-submit">Add Numbers</button>
+        <div class="output" id="output-add-numbers"></div>
+    </div>
+    
+    <div id="if-statement" class="tutorial-section">
+        <h2>If Statement (Grade Check)</h2>
+        <p>Enter a grade to check if the student passed:</p>
+        <input type="number" id="grade" placeholder="Enter grade">
+        <button id="grade-submit">Check Grade</button>
+        <div class="output" id="output-if-statement"></div>
+    </div>
+    
+    <div id="loops" class="tutorial-section">
+        <h2>Loops (for & while)</h2>
+        <p>Enter a number to see the output of a <code>for</code> loop:</p>
+        <input type="number" id="loop-num" placeholder="Enter a number">
+        <button id="loop-submit">Run Loop</button>
+        <div class="output" id="output-loops"></div>
+    </div>
+    
+    <div id="arrays" class="tutorial-section">
+        <h2>Arrays</h2>
+        <p>Enter values for an array:</p>
+        <input type="text" id="array-values" placeholder="Enter comma-separated values">
+        <button id="array-submit">Display Array</button>
+        <div class="output" id="output-arrays"></div>
+    </div>
+    
+    <div id="strings" class="tutorial-section">
+        <h2>Strings and Parsing</h2>
+        <p>Enter a string to convert it into a number:</p>
+        <input type="text" id="string-input" placeholder="Enter a string (e.g., '123')">
+        <button id="string-submit">Convert to Number</button>
+        <div class="output" id="output-strings"></div>
+    </div>
+    
+    <div id="functions" class="tutorial-section">
+        <h2>Functions</h2>
+        <p>Enter a name to see how the greet function works:</p>
+        <input type="text" id="function-name" placeholder="Enter name">
+        <button id="function-submit">Greet</button>
+        <div class="output" id="output-functions"></div>
+    </div>
+    
+    <div id="events" class="tutorial-section">
+        <h2>Event Listeners</h2>
+        <p>Click the button to trigger an event:</p>
+        <button id="myButton">Click Me!</button>
+        <div class="output" id="output-events"></div>
+    </div>
+    
+    <div id="control-manipulation" class="tutorial-section">
+        <h2>Control Manipulation</h2>
+        <p>Select an option from the dropdown:</p>
+        <select id="mySelect">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+        </select>
+        <button id="control-submit">Show Selected Option</button>
+        <div class="output" id="output-control-manipulation"></div>
+    </div>
+    </div>
+    
+    <!-- jQuery and Script to Show Tutorials -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripters.js"></script>
+    </body>
+    </html>
+    

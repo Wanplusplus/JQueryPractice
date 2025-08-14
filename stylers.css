@@ -1,0 +1,82 @@
+
+        body{
+            font-family: Arial, sans-serif;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        /* Left menu Styling */
+        #menu{
+            width: 200px;
+            background-color: #333;
+            color:white;
+            padding: 20px;
+            box-sizing: border-box;
+            height: 729px;
+        }
+        #menu h2{
+            text-align: center;
+        }
+        #menu ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        #menu ul li{
+            margin: 10px 0;
+        }
+        #menu ul li a{
+            color:white;
+            text-decoration: none;
+            font-size: 16px;
+            display: block;
+            padding: 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        #menu ul li a:hover{
+            background-color: #575757;
+        }
+        /* Right content area */
+        #content {
+            flex-grow: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #content h2 {
+            color: #333;
+        }
+        .tutorial-section{
+            display: none;
+        }
+        .output {
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #f4f4f4;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-family: monospace;
+        font-size: 16px;
+        color: #333;
+        }
+        input[type="text"], input[type="number"], select {
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+            width: 100%;
+            border-radius: 4px;
+            border:1px solid #ddd;
+        }
+        button {
+            background-color: #333;
+            color:white;
+            padding:10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        button:hover{
+            background-color: #575757;
+        }
+
