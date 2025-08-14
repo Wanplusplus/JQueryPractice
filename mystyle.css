@@ -1,0 +1,22 @@
+button{
+    background-color: #343fae;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px; /* space sang babaw kag dalom */
+}
+
+button:hover{
+    background-color: #2980b9;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+button:disabled{ /* kung naka disable ang fuckining shit */
+    background-color: white;
+    color: green;
+    cursor:not-allowed; /*wala cursor cas */
+}
